@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background: url(./img/BG.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+}
+
+.meio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 18px;
+    text-shadow: 0px 0px 10px black;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+    border: 0.5px solid whitesmoke;
+}
+
+#timer {
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    text-shadow: 0px 0px 10px black;
+    word-spacing: 20px;
+}
